@@ -1,0 +1,127 @@
+h1{
+	color: red;
+}
+article li {
+	color: #00f;
+}
+article li strong{
+	color: #000;
+}
+/*
+aside{
+	float: left;
+	width: 30%;
+	clear: both;
+}
+section{
+	float: left;
+	width: 70%;
+}
+//Queda mas bonito sin esto v:
+*/
+#formacion{
+	float: left;
+	width: 50%;
+}
+.esquina_hack{
+background-image: url(“toiop.png”) !important;
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=’toiop.png’);
+}
+
+#inibat{
+	color: yellow;
+}
+#dbat{
+	color:white;
+}
+#ubat{
+	color:white; 
+}
+#experiencia{
+	float: left;
+	width: 50%;
+}
+#fb{
+	color: white;
+}
+#formacionBat{
+	float: left;
+	width: 50%;
+	color:white;
+}
+#experienciaBat{
+	float: left;
+	width: 50%;
+	color:white;
+}
+#tipo{
+	color: white;
+}
+
+#experienciaBat li strong{
+	color: white;
+}
+#formacionBat li strong{
+	color: white;
+}
+#abat{
+	color: white;
+}
+
+article li.actual{
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+article li.actuali{
+	font-weight: bolder;
+	font-size: 1.2em;
+	color: white;
+}
+
+nav ul{
+	padding: 0;
+
+}
+nav ul{
+	display: flex;
+	list-style: none;
+}
+nav ul li a{
+	font-family: Arial;
+	font size: 11px;
+	text text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #2175bc;
+	color: #fff;
+}
+nav ul li a:hover {
+	background-color: #2586d7;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+footer{
+	clear: both;
+}
+@media (min-width: 601px)and(max-width: 1000px){
+	body{
+		font-family: Arial,sans-serif;
+	}
+	aside{
+		float: left;
+		width: 40%;
+		clear: both;
+	}
+	section{
+		float: left;
+		width: 60%;
+	}
+	#formacion{
+		width: 100%;
+	}
+	#ecxperiencia{
+		width: 100%;
+	}
+}
