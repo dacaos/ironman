@@ -2,10 +2,10 @@ h1{
 	color: red;
 }
 article li {
-	color: #00f;
+	color: #287233;
 }
 article li strong{
-	color: #000;
+	color: #287233;
 }
 /*
 aside{
@@ -95,7 +95,7 @@ nav ul li a{
 	float: left;
 	padding: 10px;
 	background-color: #2175bc;
-	color: #fff;
+	color: #287233;
 }
 nav ul li a:hover {
 	background-color: #2586d7;
